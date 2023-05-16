@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Assignment{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the Value of M");
+        int M=input.nextInt();
+        if(M%5==0 && M%3==0){
+            System.out.println("Good Number");
+        }
+        else if(M%3==0){
+            System.out.println("Bad Number");
+        }
+        else if(M%5==0){
+            System.out.println("Poor Number");
+        }
+        else{
+            System.out.println("-1");
+        }
+
+    }
+}
